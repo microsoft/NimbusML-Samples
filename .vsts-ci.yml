@@ -1,0 +1,7 @@
+phases:
+  - phase: Run_Notebooks_WinPy36
+    queue:
+      name: Hosted VS2017 
+    steps:
+    - script: tests\run.cmd
+
