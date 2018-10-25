@@ -71,6 +71,8 @@ echo #######################################################
 echo Running all Python notebooks in Samples directory ...
 echo #######################################################
 call "%PythonExe%" %__currentScriptDir%run_samples.py
+:: Retry once as there are occasional failures (that I don't currently understand) in the image tutorial notebook, cell 7
+if %ERRORLEVEL% NEQ 0 call "%PythonExe%" %__currentScriptDir%run_samples.py
 goto :Exit_Success
 
 
