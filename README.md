@@ -1,9 +1,9 @@
 
 # Samples for NimbusML
 
-NimbusML is a package of Python bindings for the [ML.NET](https://www.microsoft.com/net/learn/apps/machine-learning-and-ai/ml-dotnet) framework. [ML.NET](https://www.microsoft.com/net/learn/apps/machine-learning-and-ai/ml-dotnet) is a machine learning framework designed for .NET developers to build and use great machine learning models in their applications. It provides battle-tested state-of-the-art ML algorithms, transforms and components, aiming to make them useful for all developers. However, we also know that often people work in multiple programming languages or work in teams where people use multiple programming languages. 
+[NimbusML](https://github.com/Microsoft/NimbusML) is a package of Python bindings for the [ML.NET](https://www.microsoft.com/net/learn/apps/machine-learning-and-ai/ml-dotnet) framework. ML.NET is a machine learning framework designed for .NET developers to build and use great machine learning models in their applications. It provides battle-tested state-of-the-art ML algorithms, transforms and components, aiming to make them useful for all developers. However, we also know that often people work in multiple programming languages or work in teams where people use multiple programming languages. 
 
-In machine learning, Python has become very popular. We want to enable as many people to benefit from the ML.NET machine learning framework as possible and enable teams to work together, so we've created this project as experimental Python bindings for [ML.NET](https://www.microsoft.com/net/learn/apps/machine-learning-and-ai/ml-dotnet).
+In machine learning, Python has become very popular. We want to enable as many people to benefit from the ML.NET machine learning framework as possible and enable teams to work together, so we've created this project as experimental Python bindings for ML.NET.
 
 This is an open source project located at https://github.com/Microsoft/NimbusML. We'd love for you to try it out and/or contribute! For a full list of the samples/notebooks, please refer to our [documentation](https://docs.microsoft.com/en-us/nimbusml/tutorials).
 
