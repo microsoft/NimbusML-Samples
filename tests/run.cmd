@@ -61,7 +61,7 @@ set PATH=%PATH%;%GraphvizRoot%\release\bin
 set SampleDependencies=graphviz jupyter "nbconvert>=4.2.0" matplotlib requests Image
 echo Pip installing nimbusml and required modules
 call "%PythonExe%" -m pip install %SampleDependencies%
-call "%PythonExe%" -m pip install https://pythonpkgdeps.blob.core.windows.net/pytlc/nimbusml-0.6.0-cp36-none-win_amd64.whl
+call "%PythonExe%" -m pip install nimbusml
 :: This is a workaround for a conflict between jupyter and nbconvert. jupyter forces prompt-toolkit<2.0, and nbconvert
 :: imports features at runtime from prompt-toolkit=2.0. Here we upgrade prompt-toolkit after the install of jupyter to get around that.
 call "%PythonExe%" -m pip install "prompt-toolkit>=2.0"
