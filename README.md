@@ -5,7 +5,7 @@
 
 In machine learning, Python has become very popular. We want to enable as many people to benefit from the ML.NET machine learning framework as possible and enable teams to work together, so we've created this project as experimental Python bindings for ML.NET.
 
-This is an open source project located at https://github.com/Microsoft/NimbusML. We'd love for you to try it out and/or contribute! For a full list of the samples/notebooks, please refer to our [documentation](https://docs.microsoft.com/en-us/nimbusml/tutorials).
+This is an open source project located at https://github.com/Microsoft/NimbusML. We'd love for you to try it out and/or contribute! For a full list of the samples/notebooks, please refer to our [documentation](https://docs.microsoft.com/en-us/nimbusml/overview).
 
 ## Try today with Azure Notebooks - free Jupyter based notebooks in the Azure cloud
 
