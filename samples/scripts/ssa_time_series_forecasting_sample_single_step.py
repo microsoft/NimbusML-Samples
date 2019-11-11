@@ -5,7 +5,7 @@
 
 # Sample demonstration of NimbusML and SsaForecaster in single_step forecasting of weather
 # timeseries data
-# Usage: python3 ssa_time_series_forecasting_sample_single_step.py path_to_repo
+# Usage: python3 ssa_time_series_forecasting_sample_single_step.py
 
 #  ----------------------- Imports & Set Parameters START --------------------------------
 import os
